@@ -1,0 +1,2221 @@
+WARNING:tensorflow:From /home/adityad/HyTE/HyTE-master/time_proj_1.py:441: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /home/adityad/HyTE/HyTE-master/time_proj_1.py:464: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+2023-12-04 05:14:41.774370: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+here in main
+model done
+model object created
+enter fitting
+start fitting
+Epoch 0	Loss 483556.15625	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 50	Loss 33971.47265625	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 100	Loss 5923.62060546875	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 150	Loss 1880.25341796875	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 200	Loss 682.7135620117188	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 250	Loss 246.382080078125	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 300	Loss 79.3921127319336	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 350	Loss 18.91522979736328	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 400	Loss 3.075575828552246	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 450	Loss 0.35296282172203064	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 500	Loss 0.07225854694843292	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 550	Loss 0.05088061839342117	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 600	Loss 0.011072437278926373	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 650	Loss 0.0022254784125834703	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 700	Loss 0.0	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 750	Loss 0.0	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 800	Loss 0.0	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 850	Loss 0.0	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 900	Loss 0.0	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+Epoch 950	Loss 0.0	 model lit_comb_classes_yago_data_model
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended
+0. no of valid_triples complete
+500. no of valid_triples complete
+1000. no of valid_triples complete
+1500. no of valid_triples complete
+2000. no of valid_triples complete
+2500. no of valid_triples complete
+3000. no of valid_triples complete
+3500. no of valid_triples complete
+4000. no of valid_triples complete
+4500. no of valid_triples complete
+Validation Ended

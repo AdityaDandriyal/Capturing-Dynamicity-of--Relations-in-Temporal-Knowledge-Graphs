@@ -1,0 +1,16 @@
+lit_comb_classes_temporal_06_12_2023_22:03:46
+Epoch 50 :  time_rank 59.9388
+Epoch 100 :  time_rank 53.2324
+Epoch 150 :  time_rank 48.0
+Epoch 200 :  time_rank 44.3508
+Epoch 250 :  time_rank 41.777
+Epoch 300 :  time_rank 40.6102
+Epoch 350 :  time_rank 39.9616
+Epoch 400 :  time_rank 39.7308
+Epoch 450 :  time_rank 39.7254
+Epoch 500 :  time_rank 39.828
+Epoch 550 :  time_rank 39.9192
+Traceback (most recent call last):
+  File "/home/adityad/HyTE/HyTE-master/result_eval_time.py", line 16, in <module>
+    model_time = open('/home/adityad/temp_scope/'+args.model+'/valid_time_pred_{}.txt'.format(k))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/adityad/temp_scope/lit_comb_classes_temporal_06_12_2023_22:03:46/valid_time_pred_600.txt'

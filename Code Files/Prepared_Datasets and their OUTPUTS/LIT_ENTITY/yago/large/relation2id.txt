@@ -1,0 +1,5 @@
+<wasBornOnDate>  	0
+<diedOnDate>  	1
+<wasCreatedOnDate>  	2
+<wasDestroyedOnDate>  	3
+<happenedOnDate>  	4

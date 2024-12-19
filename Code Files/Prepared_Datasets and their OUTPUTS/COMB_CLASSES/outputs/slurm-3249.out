@@ -1,0 +1,119 @@
+lit_comb_classes_yago_data_model
+Epoch 50 : valid_tail rank 1205.2432	 valid_head rank 7281.791
+Epoch 50 : valid_tail HIT@10 57.06	 valid_head HIT@10 0.8
+Epoch 50 : valid_tail HIT@20 65.3	 valid_head HIT@20 1.38
+------------------------------------------
+Best Validation Epoch till now Epoch 50, tail rank: 1205.2432, head rank: 7281.791
+------------------------------------------
+Epoch 100 : valid_tail rank 687.1376	 valid_head rank 5501.8058
+Epoch 100 : valid_tail HIT@10 59.260000000000005	 valid_head HIT@10 1.02
+Epoch 100 : valid_tail HIT@20 64.25999999999999	 valid_head HIT@20 1.7999999999999998
+------------------------------------------
+Best Validation Epoch till now Epoch 100, tail rank: 687.1376, head rank: 5501.8058
+------------------------------------------
+Epoch 150 : valid_tail rank 227.69	 valid_head rank 4851.5952
+Epoch 150 : valid_tail HIT@10 60.22	 valid_head HIT@10 1.7000000000000002
+Epoch 150 : valid_tail HIT@20 64.94	 valid_head HIT@20 2.86
+------------------------------------------
+Best Validation Epoch till now Epoch 150, tail rank: 227.69, head rank: 4851.5952
+------------------------------------------
+Epoch 200 : valid_tail rank 250.2734	 valid_head rank 4840.4402
+Epoch 200 : valid_tail HIT@10 60.81999999999999	 valid_head HIT@10 1.92
+Epoch 200 : valid_tail HIT@20 65.32	 valid_head HIT@20 3.2800000000000002
+------------------------------------------
+Best Validation Epoch till now Epoch 150, tail rank: 227.69, head rank: 4851.5952
+------------------------------------------
+Epoch 250 : valid_tail rank 285.5788	 valid_head rank 4945.7934
+Epoch 250 : valid_tail HIT@10 61.08	 valid_head HIT@10 1.92
+Epoch 250 : valid_tail HIT@20 65.42	 valid_head HIT@20 3.3000000000000003
+------------------------------------------
+Best Validation Epoch till now Epoch 150, tail rank: 227.69, head rank: 4851.5952
+------------------------------------------
+Epoch 300 : valid_tail rank 305.099	 valid_head rank 5017.152
+Epoch 300 : valid_tail HIT@10 61.019999999999996	 valid_head HIT@10 1.9
+Epoch 300 : valid_tail HIT@20 65.28	 valid_head HIT@20 3.46
+------------------------------------------
+Best Validation Epoch till now Epoch 150, tail rank: 227.69, head rank: 4851.5952
+------------------------------------------
+Epoch 350 : valid_tail rank 317.7714	 valid_head rank 5058.442
+Epoch 350 : valid_tail HIT@10 60.86	 valid_head HIT@10 1.94
+Epoch 350 : valid_tail HIT@20 65.08	 valid_head HIT@20 3.7199999999999998
+------------------------------------------
+Best Validation Epoch till now Epoch 150, tail rank: 227.69, head rank: 4851.5952
+------------------------------------------
+Epoch 400 : valid_tail rank 320.0658	 valid_head rank 5081.8218
+Epoch 400 : valid_tail HIT@10 60.760000000000005	 valid_head HIT@10 1.9
+Epoch 400 : valid_tail HIT@20 64.92	 valid_head HIT@20 3.6999999999999997
+------------------------------------------
+Best Validation Epoch till now Epoch 150, tail rank: 227.69, head rank: 4851.5952
+------------------------------------------
+Epoch 450 : valid_tail rank 320.0254	 valid_head rank 5085.5754
+Epoch 450 : valid_tail HIT@10 60.74	 valid_head HIT@10 1.94
+Epoch 450 : valid_tail HIT@20 65.14	 valid_head HIT@20 3.52
+------------------------------------------
+Best Validation Epoch till now Epoch 150, tail rank: 227.69, head rank: 4851.5952
+------------------------------------------
+Epoch 500 : valid_tail rank 317.9282	 valid_head rank 5089.3444
+Epoch 500 : valid_tail HIT@10 60.760000000000005	 valid_head HIT@10 1.96
+Epoch 500 : valid_tail HIT@20 65.0	 valid_head HIT@20 3.64
+------------------------------------------
+Best Validation Epoch till now Epoch 150, tail rank: 227.69, head rank: 4851.5952
+------------------------------------------
+Epoch 550 : valid_tail rank 315.999	 valid_head rank 5087.838
+Epoch 550 : valid_tail HIT@10 60.84	 valid_head HIT@10 2.02
+Epoch 550 : valid_tail HIT@20 65.06	 valid_head HIT@20 3.6799999999999997
+------------------------------------------
+Best Validation Epoch till now Epoch 150, tail rank: 227.69, head rank: 4851.5952
+------------------------------------------
+Epoch 600 : valid_tail rank 314.579	 valid_head rank 5091.6242
+Epoch 600 : valid_tail HIT@10 60.81999999999999	 valid_head HIT@10 2.04
+Epoch 600 : valid_tail HIT@20 65.08	 valid_head HIT@20 3.6799999999999997
+------------------------------------------
+Best Validation Epoch till now Epoch 150, tail rank: 227.69, head rank: 4851.5952
+------------------------------------------
+Epoch 650 : valid_tail rank 314.536	 valid_head rank 5089.11
+Epoch 650 : valid_tail HIT@10 60.9	 valid_head HIT@10 2.02
+Epoch 650 : valid_tail HIT@20 65.03999999999999	 valid_head HIT@20 3.7199999999999998
+------------------------------------------
+Best Validation Epoch till now Epoch 150, tail rank: 227.69, head rank: 4851.5952
+------------------------------------------
+Epoch 700 : valid_tail rank 314.7332	 valid_head rank 5090.5866
+Epoch 700 : valid_tail HIT@10 60.940000000000005	 valid_head HIT@10 2.02
+Epoch 700 : valid_tail HIT@20 65.02	 valid_head HIT@20 3.7199999999999998
+------------------------------------------
+Best Validation Epoch till now Epoch 150, tail rank: 227.69, head rank: 4851.5952
+------------------------------------------
+Epoch 750 : valid_tail rank 314.7332	 valid_head rank 5090.5866
+Epoch 750 : valid_tail HIT@10 60.940000000000005	 valid_head HIT@10 2.02
+Epoch 750 : valid_tail HIT@20 65.02	 valid_head HIT@20 3.7199999999999998
+------------------------------------------
+Best Validation Epoch till now Epoch 150, tail rank: 227.69, head rank: 4851.5952
+------------------------------------------
+Epoch 800 : valid_tail rank 314.7332	 valid_head rank 5090.5866
+Epoch 800 : valid_tail HIT@10 60.940000000000005	 valid_head HIT@10 2.02
+Epoch 800 : valid_tail HIT@20 65.02	 valid_head HIT@20 3.7199999999999998
+------------------------------------------
+Best Validation Epoch till now Epoch 150, tail rank: 227.69, head rank: 4851.5952
+------------------------------------------
+Epoch 850 : valid_tail rank 314.7332	 valid_head rank 5090.5866
+Epoch 850 : valid_tail HIT@10 60.940000000000005	 valid_head HIT@10 2.02
+Epoch 850 : valid_tail HIT@20 65.02	 valid_head HIT@20 3.7199999999999998
+------------------------------------------
+Best Validation Epoch till now Epoch 150, tail rank: 227.69, head rank: 4851.5952
+------------------------------------------
+Epoch 900 : valid_tail rank 314.7332	 valid_head rank 5090.5866
+Epoch 900 : valid_tail HIT@10 60.940000000000005	 valid_head HIT@10 2.02
+Epoch 900 : valid_tail HIT@20 65.02	 valid_head HIT@20 3.7199999999999998
+------------------------------------------
+Best Validation Epoch till now Epoch 150, tail rank: 227.69, head rank: 4851.5952
+------------------------------------------
+Epoch 950 : valid_tail rank 314.7332	 valid_head rank 5090.5866
+Epoch 950 : valid_tail HIT@10 60.940000000000005	 valid_head HIT@10 2.02
+Epoch 950 : valid_tail HIT@20 65.02	 valid_head HIT@20 3.7199999999999998
+------------------------------------------
+Best Validation Epoch till now Epoch 150, tail rank: 227.69, head rank: 4851.5952
+------------------------------------------
+Traceback (most recent call last):
+  File "/home/adityad/HyTE/HyTE-master/result_eval.py", line 16, in <module>
+    model_output_head = open('results/'+args.model+'/'+args.eval_mode+'_head_pred_{}.txt'.format(k))
+FileNotFoundError: [Errno 2] No such file or directory: 'results/lit_comb_classes_yago_data_model/valid_head_pred_1000.txt'

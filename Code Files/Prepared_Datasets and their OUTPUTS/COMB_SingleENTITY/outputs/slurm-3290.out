@@ -1,0 +1,16 @@
+lit_comb_sle_temporal_07_12_2023_03:57:22
+Epoch 50 :  time_rank 61.7749549909982
+Epoch 100 :  time_rank 55.69893978795759
+Epoch 150 :  time_rank 50.961592318463694
+Epoch 200 :  time_rank 46.30986197239448
+Epoch 250 :  time_rank 43.280656131226245
+Epoch 300 :  time_rank 42.19183836767353
+Epoch 350 :  time_rank 41.671934386877375
+Epoch 400 :  time_rank 41.43308661732347
+Epoch 450 :  time_rank 41.220444088817764
+Epoch 500 :  time_rank 41.231046209241846
+Epoch 550 :  time_rank 41.28585717143429
+Traceback (most recent call last):
+  File "/home/adityad/HyTE/HyTE-master/result_eval_time.py", line 16, in <module>
+    model_time = open('/home/adityad/temp_scope/'+args.model+'/valid_time_pred_{}.txt'.format(k))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/adityad/temp_scope/lit_comb_sle_temporal_07_12_2023_03:57:22/valid_time_pred_600.txt'
