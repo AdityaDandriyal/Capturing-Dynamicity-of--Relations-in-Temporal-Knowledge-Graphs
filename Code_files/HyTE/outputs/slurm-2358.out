@@ -1,0 +1,25 @@
+WARNING:tensorflow:From /home/adityad/HyTE/HyTE-master/time_proj.py:439: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /home/adityad/HyTE/HyTE-master/time_proj.py:462: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+2023-10-24 17:40:26.901742: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+here in main
+model done
+model object created
+enter fitting
+start Testing
+0. no of test_triples complete
+500. no of test_triples complete
+1000. no of test_triples complete
+1500. no of test_triples complete
+2000. no of test_triples complete
+Test ended
+yago_data_neg_sample_5_mar_10_l2_0.00_model
+Epoch 165 : test_tail rank 110.4763529985373	 test_head rank 1059.4441735738665
+Epoch 165 : test_tail HIT@10 35.104826913700634	 test_head HIT@!) 13.310580204778159
+Traceback (most recent call last):
+  File "/home/adityad/HyTE/HyTE-master/result_eval.py", line 16, in <module>
+    model_output_head = open('results/'+args.model+'/'+args.eval_mode+'_head_pred_{}.txt'.format(k))
+FileNotFoundError: [Errno 2] No such file or directory: 'results/yago_data_neg_sample_5_mar_10_l2_0.00_model/test_head_pred_330.txt'

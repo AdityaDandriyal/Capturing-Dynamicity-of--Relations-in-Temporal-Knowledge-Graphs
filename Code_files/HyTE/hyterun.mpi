@@ -1,0 +1,201 @@
+#!/bin/bash
+#SBATCH --job-name=ave_hi
+ # create a short name for your job
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=16G
+#SBATCH --time=23:59:59
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu02
+#SBATCH --mail-type=begin
+#SBATCH --mail-type=end
+#SBATCH --mail-user=142202003@smail.iitpkd.ac.in
+ 
+
+module purge
+#YAGO11K HyTE_PAPER_DATA(Re-Implementation)
+
+#Training the model on yago dataset--Hyte paper data(2315)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj.py -name yago_data_neg_sample_5_mar_10_l2_0.00_model -margin 10 -l2 0.00 -neg_sample 5 -epoch 2000 -data_type yago -version large -test_freq 5
+
+#Evaluating for tail and head prediction and getting best validation epoch(2334)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval.py -eval_mode valid -model yago_data_neg_sample_5_mar_10_l2_0.00_model -test_freq 5
+
+#Evaluating for relation prediction(2351)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval_relation.py -eval_mode valid -model yago_data_neg_sample_5_mar_10_l2_0.00_model -test_freq 5
+
+#Restoring weights for best epoch(2357)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj.py -res_epoch 165 -onlyTest -restore -name yago_data_neg_sample_5_mar_10_l2_0.00_model -margin 10 -l2 0.00 -neg_sample 5 -gpu 0 -data_type yago -version large
+
+#Testing for tail and head prediction(2358)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval.py -eval_mode test -test_freq 165 -model yago_data_neg_sample_5_mar_10_l2_0.00_model
+
+#Training the model on TDNS for temporal scoping on yago dataset(2364)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj_tdns_scope.py -name yago_data_temporal_scoping_model -margin 10 -l2 0.00 -neg_sample 5 -epoch 2000 -data_type yago -version large
+
+#Evaluating TDNS trained model for temporal scoping(2478)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval_time.py -eval_mode valid -model yago_data_temporal_scoping_model_24_10_2023_18:32:31 -test_freq 25
+
+#EXTRA(getting Hits@20)
+
+#Evaluating for tail and head prediction and getting best validation epoch(3280) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval.py -eval_mode valid -model yago_data_neg_sample_5_mar_10_l2_0.00_model -test_freq 50
+
+#Restoring weights for best epoch(3297) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj_0.py -res_epoch 150 -onlyTest -restore -name yago_data_neg_sample_5_mar_10_l2_0.00_model -margin 10 -l2 0.00 -neg_sample 5 -gpu 0 -data_type yago -version large
+
+#Testing for tail and head prediction(3298) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval.py -eval_mode test -test_freq 150 -model yago_data_neg_sample_5_mar_10_l2_0.00_model
+
+#wiki-dataset (Not useful)
+#2450
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj.py -name wiki_data_neg_sample_5_mar_10_l2_0.00_model -margin 10 -l2 0.00 -neg_sample 5 -epoch 2000 -data_type wiki_data -version large -test_freq 5
+#2454
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval.py -eval_mode valid -model wiki_data_neg_sample_5_mar_10_l2_0.00_model -test_freq 5
+#2464
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval_relation.py -eval_mode valid -model wiki_data_neg_sample_5_mar_10_l2_0.00_model -test_freq 5
+#2470
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj.py -res_epoch 330 -onlyTest -restore -name wiki_data_neg_sample_5_mar_10_l2_0.00_model -margin 10 -l2 0.00 -neg_sample 5 -gpu 0 -data_type wiki_data -version large
+#Missing
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval.py -eval_mode test -test_freq 330 -model wiki_data_neg_sample_5_mar_10_l2_0.00_model
+
+
+#-------------------------------
+
+
+#LITERAL_DATA(wrong encoding)
+
+#Training the model on literal data(3003)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj.py -name yago_lit_data_model -margin 10 -l2 0.00 -neg_sample 5 -epoch 2000 -data_type yago -version large -test_freq 5
+
+#Evaluating for tail and head prediction and getting best validation epoch(3019)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval.py -eval_mode valid -model yago_lit_data_model -test_freq 5
+
+#Evaluating for relation prediction(3033)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval_relation.py -eval_mode valid -model yago_lit_data_model -test_freq 5
+
+#Restoring weights for best epoch(3034)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj.py -res_epoch 1985 -onlyTest -restore -name yago_lit_data_model -margin 10 -l2 0.00 -neg_sample 5 -gpu 0 -data_type yago -version large
+
+#Testing for tail and head prediction(3035)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval.py -eval_mode test -test_freq 1985 -model yago_lit_data_model
+
+#Testing for relation prediction(3036)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval_relation.py -eval_mode test -test_freq 1985 -model yago_lit_data_model
+
+#Training the model on TDNS for temporal scoping on yago dataset(3038)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj_tdns_scope.py -name yago_lit_data_temporal_scoping_model -margin 10 -l2 0.00 -neg_sample 5 -epoch 2000 -data_type yago -version large
+
+#Evaluating TDNS trained model for temporal scoping(3043)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval_time.py -eval_mode valid -model yago_lit_data_temporal_scoping_model_27_11_2023_08:34:34 -test_freq 25
+
+#--------------------
+
+
+#LIT_DATA_ONLY_TYPE_1
+
+#Training the model on literal data(3143)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj.py -name yago_type1_lit_data_model -margin 10 -l2 0.00 -neg_sample 5 -epoch 2000 -data_type yago -version large -test_freq 5
+
+#Evaluating for tail and head prediction and getting best validation epoch(3162)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval.py -eval_mode valid -model yago_type1_lit_data_model -test_freq 5
+
+#Evaluating for relation prediction(3163)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval_relation.py -eval_mode valid -model yago_type1_lit_data_model -test_freq 5
+
+#Restoring weights for best epoch(3166)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj.py -res_epoch 1990 -onlyTest -restore -name yago_type1_lit_data_model -margin 10 -l2 0.00 -neg_sample 5 -gpu 0 -data_type yago -version large
+
+#Testing for tail and head prediction(3167)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval.py -eval_mode test -test_freq 1990 -model yago_type1_lit_data_model
+
+#Training the model on TDNS for temporal scoping on yago dataset(3168)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj_tdns_scope.py -name yago_type1_lit_data_temporal_scoping_model -margin 10 -l2 0.00 -neg_sample 5 -epoch 2000 -data_type yago -version large
+
+#Evaluating TDNS trained model for temporal scoping(3169)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval_time.py -eval_mode valid -model yago_type1_lit_data_temporal_scoping_model_30_11_2023_12:31:17 -test_freq 25
+
+#EXTRA(getting Hits@20)
+
+#Evaluating for tail and head prediction and getting best validation epoch(3269) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval.py -eval_mode valid -model yago_type1_lit_data_model -test_freq 50
+
+#Restoring weights for best epoch(3291) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj_0.py -res_epoch 1950 -onlyTest -restore -name yago_type1_lit_data_model -margin 10 -l2 0.00 -neg_sample 5 -gpu 0 -data_type yago -version large
+
+#Testing for tail and head prediction(3292) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval.py -eval_mode test -test_freq 1950 -model yago_type1_lit_data_model
+
+#--------------------------
+
+
+#LIT_COMB_INDIVIDUAL(xxxxxxxxxNOT HERExxxxxxxxxx)
+
+#Training the model on literal data(3219)xxxxx
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj.py -name lit_comb_individual_yago_data_model -margin 10 -l2 0.00 -neg_sample 5 -epoch 1000 -data_type yago -version large -test_freq 5
+
+#Evaluating for tail and head prediction and getting best validation epoch(3)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval.py -eval_mode valid -model lit_comb_individual_yago_data_model -test_freq 5
+
+#Evaluating for relation prediction(3)
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval_relation.py -eval_mode valid -model lit_comb_individual_yago_data_model -test_freq 5
+
+
+
+#-----------------------------
+
+#LIT_COMB_CLASSES
+
+#Training the model on literal data(3226) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj_1.py -name lit_comb_classes_yago_data_model -margin 10 -l2 0.00 -neg_sample 5 -epoch 1000 -data_type yago -version large -test_freq 5
+
+#Evaluating for tail and head prediction and getting best validation epoch(3249) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval.py -eval_mode valid -model lit_comb_classes_yago_data_model -test_freq 50
+
+#Evaluating for relation prediction(3250)  done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval_relation.py -eval_mode valid -model lit_comb_classes_yago_data_model -test_freq 5
+
+#Restoring weights for best epoch(3293) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj_1.py -res_epoch 150 -onlyTest -restore -name lit_comb_classes_yago_data_model -margin 10 -l2 0.00 -neg_sample 5 -gpu 0 -data_type yago -version large
+
+#Testing for tail and head prediction(3294) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval.py -eval_mode test -test_freq 150 -model lit_comb_classes_yago_data_model
+
+#Training the model on TDNS for temporal scoping on yago dataset(3252) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj_tdns_scope.py -name lit_comb_classes_temporal -margin 10 -l2 0.00 -neg_sample 5 -epoch 600 -data_type yago -version large -test_freq 50
+
+#Evaluating TDNS trained model for temporal scoping(3276) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval_time.py -eval_mode valid -model lit_comb_classes_temporal_06_12_2023_22:03:46 -test_freq 50
+
+
+#-----------------------------
+
+#LIT_COMB_SLE
+
+#Training the model on literal data(3227) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj_2.py -name lit_comb_sle_yago_data_model -margin 10 -l2 0.00 -neg_sample 5 -epoch 1000 -data_type yago -version large -test_freq 5
+
+#Evaluating for tail and head prediction and getting best validation epoch(3248) done     
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval.py -eval_mode valid -model lit_comb_sle_yago_data_model -test_freq 50
+
+#Evaluating for relation prediction(3237) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval_relation.py -eval_mode valid -model lit_comb_sle_yago_data_model -test_freq 5
+
+#Restoring weights for best epoch(3295) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj_2.py -res_epoch 150 -onlyTest -restore -name lit_comb_sle_yago_data_model -margin 10 -l2 0.00 -neg_sample 5 -gpu 0 -data_type yago -version large
+
+#Testing for tail and head prediction(3296) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval.py -eval_mode test -test_freq 150 -model lit_comb_sle_yago_data_model
+
+#Training the model on TDNS for temporal scoping on yago dataset(3278) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj_tdns_scope_1.py -name lit_comb_sle_temporal -margin 10 -l2 0.00 -neg_sample 5 -epoch 600 -data_type yago -version large -test_freq 50
+
+#Evaluating TDNS trained model for temporal scoping(3290) done
+#singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/result_eval_time.py -eval_mode valid -model lit_comb_sle_temporal_07_12_2023_03:57:22 -test_freq 50
+
+
+
+
+
+singularity exec --nv /home/adityad/HyTE/hyte.sif python3 /home/adityad/HyTE/HyTE-master/time_proj_0.py -name wiki_data_neg_sample_5_mar_10_l2_0.00_model -margin 10 -l2 0.00 -neg_sample 5 -epoch 2000 -data_type wiki_data -version large -test_freq 5

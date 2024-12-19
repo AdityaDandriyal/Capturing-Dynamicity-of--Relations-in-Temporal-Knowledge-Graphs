@@ -1,0 +1,728 @@
+WARNING:tensorflow:From /home/adityad/HyTE/HyTE-master/time_proj_tdns_scope.py:512: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /home/adityad/HyTE/HyTE-master/time_proj_tdns_scope.py:531: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+2023-10-24 18:33:40.576529: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+here in main
+model done
+model object created
+enter fitting
+start fitting
+Epoch 0	Loss 493952.84375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 5	Loss 428465.96875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 10	Loss 362578.90625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 15	Loss 304894.6875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 20	Loss 269600.96875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 25	Loss 252771.828125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 30	Loss 243165.625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 35	Loss 236066.796875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 40	Loss 229700.984375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 45	Loss 223834.84375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 50	Loss 218186.75	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 55	Loss 213064.0625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 60	Loss 208281.25	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 65	Loss 204066.90625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 70	Loss 200346.84375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 75	Loss 197087.171875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 80	Loss 194217.484375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 85	Loss 191878.78125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 90	Loss 190044.15625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 95	Loss 188499.671875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 100	Loss 187147.15625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 105	Loss 185945.171875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 110	Loss 184862.828125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 115	Loss 183882.609375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 120	Loss 182986.25	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 125	Loss 182161.25	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 130	Loss 181391.5	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 135	Loss 180666.90625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 140	Loss 179973.203125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 145	Loss 179307.734375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 150	Loss 178661.09375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 155	Loss 178035.640625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 160	Loss 177414.0	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 165	Loss 176806.671875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 170	Loss 176210.75	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 175	Loss 175619.21875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 180	Loss 175035.328125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 185	Loss 174453.21875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 190	Loss 173875.671875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 195	Loss 173301.875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 200	Loss 172734.03125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 205	Loss 172169.03125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 210	Loss 171618.359375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 215	Loss 171071.953125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 220	Loss 170540.8125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 225	Loss 170014.3125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 230	Loss 169510.453125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 235	Loss 169011.75	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 240	Loss 168529.5625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 245	Loss 168065.109375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 250	Loss 167612.453125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 255	Loss 167176.65625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 260	Loss 166755.515625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 265	Loss 166344.71875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 270	Loss 165950.140625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 275	Loss 165569.90625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 280	Loss 165206.40625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 285	Loss 164848.984375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 290	Loss 164501.75	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 295	Loss 164171.640625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 300	Loss 163855.171875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 305	Loss 163536.796875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 310	Loss 163238.59375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 315	Loss 162945.3125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 320	Loss 162657.296875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 325	Loss 162382.71875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 330	Loss 162110.671875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 335	Loss 161850.75	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 340	Loss 161591.015625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 345	Loss 161341.4375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 350	Loss 161095.8125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 355	Loss 160853.859375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 360	Loss 160623.171875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 365	Loss 160396.671875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 370	Loss 160167.734375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 375	Loss 159953.109375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 380	Loss 159738.609375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 385	Loss 159531.40625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 390	Loss 159326.765625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 395	Loss 159131.328125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 400	Loss 158932.546875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 405	Loss 158744.5	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 410	Loss 158554.78125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 415	Loss 158372.359375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 420	Loss 158196.4375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 425	Loss 158020.28125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 430	Loss 157851.484375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 435	Loss 157678.921875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 440	Loss 157517.53125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 445	Loss 157353.90625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 450	Loss 157193.640625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 455	Loss 157036.4375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 460	Loss 156885.03125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 465	Loss 156734.171875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 470	Loss 156586.46875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 475	Loss 156442.5	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 480	Loss 156301.03125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 485	Loss 156161.5625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 490	Loss 156020.40625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 495	Loss 155885.3125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 500	Loss 155755.6875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 505	Loss 155622.484375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 510	Loss 155490.984375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 515	Loss 155368.75	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 520	Loss 155243.640625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 525	Loss 155117.09375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 530	Loss 155000.40625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 535	Loss 154880.828125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 540	Loss 154763.640625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 545	Loss 154645.84375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 550	Loss 154534.296875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 555	Loss 154421.84375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 560	Loss 154310.640625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 565	Loss 154204.4375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 570	Loss 154094.90625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 575	Loss 153990.0625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 580	Loss 153890.28125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 585	Loss 153783.109375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 590	Loss 153687.21875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 595	Loss 153584.6875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 600	Loss 153487.921875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 605	Loss 153390.5	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 610	Loss 153290.5	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 615	Loss 153198.84375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 620	Loss 153106.3125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 625	Loss 153011.65625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 630	Loss 152920.375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 635	Loss 152829.828125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 640	Loss 152740.171875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 645	Loss 152652.84375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 650	Loss 152561.90625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 655	Loss 152481.1875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 660	Loss 152393.765625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 665	Loss 152313.0	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 670	Loss 152225.4375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 675	Loss 152146.9375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 680	Loss 152063.515625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 685	Loss 151984.859375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 690	Loss 151905.53125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 695	Loss 151827.796875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 700	Loss 151749.75	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 705	Loss 151676.75	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 710	Loss 151601.5	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 715	Loss 151527.15625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 720	Loss 151450.59375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 725	Loss 151378.0	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 730	Loss 151307.8125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 735	Loss 151237.09375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 740	Loss 151162.984375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 745	Loss 151094.234375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 750	Loss 151028.90625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 755	Loss 150958.78125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 760	Loss 150890.921875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 765	Loss 150823.828125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 770	Loss 150758.484375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 775	Loss 150689.015625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 780	Loss 150623.921875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 785	Loss 150557.234375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 790	Loss 150495.8125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 795	Loss 150432.484375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 800	Loss 150369.328125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 805	Loss 150309.515625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 810	Loss 150245.90625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 815	Loss 150186.546875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 820	Loss 150122.984375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 825	Loss 150063.78125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 830	Loss 150007.0625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 835	Loss 149944.171875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 840	Loss 149888.671875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 845	Loss 149830.640625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 850	Loss 149773.984375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 855	Loss 149717.40625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 860	Loss 149663.78125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 865	Loss 149605.609375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 870	Loss 149549.515625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 875	Loss 149493.78125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 880	Loss 149443.71875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 885	Loss 149386.59375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 890	Loss 149333.65625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 895	Loss 149281.671875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 900	Loss 149226.046875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 905	Loss 149172.84375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 910	Loss 149124.59375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 915	Loss 149070.703125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 920	Loss 149017.546875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 925	Loss 148966.5	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 930	Loss 148912.078125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 935	Loss 148865.171875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 940	Loss 148812.578125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 945	Loss 148767.484375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 950	Loss 148716.25	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 955	Loss 148668.71875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 960	Loss 148618.71875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 965	Loss 148574.828125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 970	Loss 148528.0625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 975	Loss 148480.828125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 980	Loss 148430.828125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 985	Loss 148390.5625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 990	Loss 148339.703125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 995	Loss 148293.859375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1000	Loss 148250.28125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1005	Loss 148206.515625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1010	Loss 148158.671875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1015	Loss 148113.859375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1020	Loss 148069.671875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1025	Loss 148025.171875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1030	Loss 147980.21875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1035	Loss 147938.046875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1040	Loss 147895.671875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1045	Loss 147852.46875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1050	Loss 147806.953125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1055	Loss 147767.484375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1060	Loss 147726.65625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1065	Loss 147684.203125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1070	Loss 147643.78125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1075	Loss 147607.140625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1080	Loss 147563.015625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1085	Loss 147522.21875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1090	Loss 147482.53125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1095	Loss 147442.46875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1100	Loss 147399.5625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1105	Loss 147361.890625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1110	Loss 147322.328125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1115	Loss 147287.75	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1120	Loss 147247.0625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1125	Loss 147205.5625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1130	Loss 147170.25	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1135	Loss 147132.984375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1140	Loss 147093.25	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1145	Loss 147058.75	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1150	Loss 147019.296875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1155	Loss 146985.09375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1160	Loss 146947.328125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1165	Loss 146911.984375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1170	Loss 146873.78125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1175	Loss 146837.40625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1180	Loss 146801.21875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1185	Loss 146764.203125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1190	Loss 146733.234375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1195	Loss 146693.125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1200	Loss 146664.21875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1205	Loss 146628.59375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1210	Loss 146595.140625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1215	Loss 146557.890625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1220	Loss 146526.078125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1225	Loss 146493.625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1230	Loss 146458.59375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1235	Loss 146423.859375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1240	Loss 146394.71875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1245	Loss 146361.96875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1250	Loss 146329.390625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1255	Loss 146296.0625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1260	Loss 146265.484375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1265	Loss 146236.5	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1270	Loss 146200.375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1275	Loss 146166.984375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1280	Loss 146141.015625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1285	Loss 146107.0	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1290	Loss 146076.234375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1295	Loss 146043.234375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1300	Loss 146013.5625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1305	Loss 145985.125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1310	Loss 145949.5625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1315	Loss 145920.8125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1320	Loss 145889.8125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1325	Loss 145859.0625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1330	Loss 145834.859375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1335	Loss 145801.171875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1340	Loss 145770.921875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1345	Loss 145740.78125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1350	Loss 145710.25	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1355	Loss 145683.78125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1360	Loss 145656.0625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1365	Loss 145626.75	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1370	Loss 145596.78125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1375	Loss 145567.375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1380	Loss 145539.21875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1385	Loss 145509.515625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1390	Loss 145485.9375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1395	Loss 145457.59375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1400	Loss 145427.9375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1405	Loss 145403.046875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1410	Loss 145368.453125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1415	Loss 145346.3125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1420	Loss 145316.734375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1425	Loss 145291.171875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1430	Loss 145262.25	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1435	Loss 145235.953125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1440	Loss 145211.9375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1445	Loss 145184.96875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1450	Loss 145155.59375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1455	Loss 145129.296875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1460	Loss 145100.84375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1465	Loss 145078.359375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1470	Loss 145050.515625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1475	Loss 145028.59375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1480	Loss 144998.21875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1485	Loss 144971.25	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1490	Loss 144949.671875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1495	Loss 144920.9375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1500	Loss 144895.796875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1505	Loss 144873.5625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1510	Loss 144845.140625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1515	Loss 144820.09375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1520	Loss 144793.109375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1525	Loss 144770.4375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1530	Loss 144746.21875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1535	Loss 144722.953125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1540	Loss 144696.921875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1545	Loss 144670.390625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1550	Loss 144645.3125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1555	Loss 144620.28125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1560	Loss 144598.40625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1565	Loss 144571.578125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1570	Loss 144548.71875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1575	Loss 144527.34375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1580	Loss 144499.5	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1585	Loss 144480.265625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1590	Loss 144449.015625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1595	Loss 144426.34375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1600	Loss 144409.25	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1605	Loss 144381.828125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1610	Loss 144363.171875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1615	Loss 144334.71875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1620	Loss 144317.140625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1625	Loss 144292.484375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1630	Loss 144268.671875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1635	Loss 144246.25	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1640	Loss 144223.03125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1645	Loss 144199.0625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1650	Loss 144179.90625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1655	Loss 144155.359375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1660	Loss 144132.3125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1665	Loss 144110.859375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1670	Loss 144091.96875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1675	Loss 144069.78125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1680	Loss 144043.515625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1685	Loss 144023.59375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1690	Loss 144005.296875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1695	Loss 143980.890625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1700	Loss 143959.46875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1705	Loss 143936.75	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1710	Loss 143917.671875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1715	Loss 143896.9375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1720	Loss 143873.515625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1725	Loss 143852.5	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1730	Loss 143829.671875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1735	Loss 143806.96875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1740	Loss 143789.671875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1745	Loss 143769.3125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1750	Loss 143747.578125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1755	Loss 143722.171875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1760	Loss 143705.484375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1765	Loss 143682.46875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1770	Loss 143667.59375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1775	Loss 143642.75	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1780	Loss 143622.640625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1785	Loss 143600.359375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1790	Loss 143582.1875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1795	Loss 143559.609375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1800	Loss 143544.671875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1805	Loss 143522.078125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1810	Loss 143502.40625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1815	Loss 143482.046875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1820	Loss 143461.46875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1825	Loss 143441.140625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1830	Loss 143420.828125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1835	Loss 143400.8125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1840	Loss 143382.0625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1845	Loss 143364.390625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1850	Loss 143346.5625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1855	Loss 143324.171875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1860	Loss 143306.171875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1865	Loss 143285.28125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1870	Loss 143270.734375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1875	Loss 143245.578125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1880	Loss 143230.015625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1885	Loss 143207.390625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1890	Loss 143186.5	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1895	Loss 143169.765625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1900	Loss 143154.8125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1905	Loss 143131.53125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1910	Loss 143114.921875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1915	Loss 143093.953125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1920	Loss 143077.46875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1925	Loss 143057.296875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1930	Loss 143041.5625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1935	Loss 143022.484375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1940	Loss 143002.109375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1945	Loss 142983.921875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1950	Loss 142965.515625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1955	Loss 142945.9375	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1960	Loss 142929.421875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1965	Loss 142908.078125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1970	Loss 142892.28125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1975	Loss 142870.546875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+0. no of valid_triples complete
+1000. no of valid_triples complete
+2000. no of valid_triples complete
+Validation Ended
+Epoch 1980	Loss 142856.03125	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1985	Loss 142838.21875	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1990	Loss 142820.015625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
+Epoch 1995	Loss 142802.90625	 model yago_data_temporal_scoping_model_24_10_2023_18:32:31
