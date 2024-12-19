@@ -1,8 +1,0 @@
-yago_type1_lit_data_model
-Epoch 1950 : test_tail rank 302.9952982662357	 test_head rank 11361.810167499265
-Epoch 1950 : test_tail HIT@10 30.38495445195416	 test_head HIT@10 0.0
-Epoch 1950 : test_tail HIT@20 43.726124008228034	 test_head HIT@20 0.0
-Traceback (most recent call last):
-  File "/home/adityad/HyTE/HyTE-master/result_eval.py", line 16, in <module>
-    model_output_head = open('results/'+args.model+'/'+args.eval_mode+'_head_pred_{}.txt'.format(k))
-FileNotFoundError: [Errno 2] No such file or directory: 'results/yago_type1_lit_data_model/test_head_pred_3900.txt'
