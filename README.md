@@ -111,6 +111,8 @@ Following are some of the methodologies with their own set of limitations which
 make learning embeddings for numerical literal data a possibility.
 
 **HyTE paper approach**
+
+
 The data before being given as input to HyTE has to be pre-processed in a very
 unique way. Originally our data would be in the form of quadruple (head entity,
 relation, tail entity, [start date, end date]). We assign each unique entity and each
